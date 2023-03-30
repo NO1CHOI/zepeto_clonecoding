@@ -1,0 +1,7 @@
+/* 반응형 웹으로 만들기 */
+/*  width: calc(100%-30px);
+max-width:1200px;
+min-width:320px; */
+@media screen and (max-width:800px) {
+    header nav a  {display: none;}
+}
