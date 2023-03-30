@@ -1,0 +1,212 @@
+/* tablet 여백 30px  */
+/* h1 = 2.5rem  14 = 0.875rem 20px = 1.250rem*/ 
+/* header */
+header {
+    background: #222;
+    position:fixed;
+    left: 0; top:0;
+    z-index: 999;
+    height: 90px; width: 100%;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+header .logo {}
+header .logo a {}
+header .logo a img {width:100%;}
+header nav {}
+header nav a {
+    color:#fff;
+    font-size:1.2rem; font-weight: 600;
+    padding:0 10px;
+}
+header .wrap_right {
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+header .wrap_right a {
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px;
+}
+header .wrap_right a span {
+    border: 2px solid #fff; padding:10px;
+    border-radius: 5px;
+    color:#fff; font-size: 0.875rem;
+}
+header .wrap_right a img {
+    width: 100%;
+    filter:invert(1);
+    height:40px;}
+/* main 1 ------------------------------------ */
+main {}
+main .main1 {
+    position:relative;
+}
+main .main1 .main1_contents {
+    position:absolute;
+    left:40%;top:40%;
+    text-align: center;
+}
+main .main1 .main1_contents h1 {
+    color: #fff;
+    font-size: 3rem; font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+}
+main .main1 .main1_contents .start {
+    display: inline-block;
+    background: #222;
+    border-radius: 10px;
+    color:#fff;
+    padding:20px 50px;
+    margin-top:50px;
+}
+main .main1 video {width: 100%;}
+/* main 2 ------------------------------------ */
+main .main2 {
+    margin:0 auto;
+    padding: 100px;
+    text-align: center;
+}
+main .main2 h1 {
+    padding:50px;
+    font-weight: 700; font-size: 3rem;
+}
+main .main2 p {
+    font-weight: 500;font-size: 1.250rem;
+    line-height: 1.5;
+}
+main .main2 img {width: 100%;}
+main .main2 .main2_wrap {
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main .main2 .main2_wrap .main2_contents {
+    width: 1200px;
+    padding:30px 0;
+}
+main .main2 .main2_wrap .main2_contents h2 {
+    font-weight: 700; font-size: 2rem;
+}
+main .main2 .main2_wrap .main2_contents p {
+    font-weight: 600; font-size: 1.280rem;
+    line-height: 1.2;
+}
+main .main2 .main2_wrap .right {}
+main .main2 .main2_wrap .center {}
+main .main2 .main2_wrap .left {}
+/* main 3 ------------------------------------ */
+main .main3 {
+    background: #eee;text-align: center;
+    padding:150px 0 ;
+}
+main .main3 h1 {font-weight: 700; font-size: 3rem;}
+main .main3 > p {    
+    font-weight: 600; font-size: 1.280rem;
+    line-height: 1.2; padding:40px;
+}
+main .main3 .main3_contents {
+    width: 1200px; margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+}
+main .main3 .main3_contents .contents {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width:600px; height: 350px;
+    margin: 10px;
+}
+main .main3 .main3_contents .contents > h2 {
+    padding: 50px 0;
+    font-weight: 700;  font-size: 1.5rem;
+}
+main .main3 .main3_contents .contents > p {
+    padding-bottom:50px;
+    font-size: 1.280rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+main .main3 .main3_contents .contents .more {
+    color: #fff;
+    background: #222;
+    padding:15px 20px;
+    border-radius: 10px;
+}
+/* main 4 ------------------------------------ */
+main .main4 {
+    width: 1200px;margin:0 auto;
+    padding:150px 0;
+}
+main .main4 h1 {
+    font-weight: 700; font-size: 3rem;
+    text-align: center;
+    padding: 30px 0;
+}
+main .main4 p {
+    font-weight: 700; font-size: 1.280rem;
+    text-align: center;
+    line-height: 1.5;
+}
+main .main4 p:first-child {}
+main .main4 p:last-child {}
+main .main4 .main4_contents {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+}
+main .main4 .main4_contents a {
+    padding: 50px 10px;
+}
+main .main4 .main4_contents img {width: 100%;}
+/* footer------------------------------------ */
+footer {
+    padding: 80px 10px 100px;
+    background: #eee;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .left {}
+footer .left a {
+    padding-right:20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+footer .left address {
+    padding-top:20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+/* footer - lang */
+footer .right {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .right #lang {
+    padding:5px;
+    border:none;    
+}
+footer .right #lang option {}
+footer .right a {padding:5px;}
+footer .right a img {width:100%}
+
+/* 반응형 웹으로 만들기 */
+/*  width: calc(100%-30px);
+    max-width:1200px;
+    min-width:320px; */
